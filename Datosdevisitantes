@@ -1,0 +1,25 @@
+public class Datosdevisitantes {
+    public static void main(String[] args) {
+
+        String nombre = "Sara Connor";
+        int edad = 25;
+        long telefono = 66520036L; // Añadir 'L' para evitar ambigüedades con int
+        char genero = 'F';
+        byte habitacion = 17;
+        short visitas = 5;
+        float altura = 1.69f;
+        double peso = 75;
+        boolean esResidente = false;
+
+        System.out.println("\nDatos del Visitante\n");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Teléfono: " + telefono);
+        System.out.println("Género: " + genero);
+        System.out.println("Habitación: " + habitacion);
+        System.out.println("Número de visitas: " + visitas);
+        System.out.println("Altura: " + altura + " m");
+        System.out.println("Peso: " + peso + " kg");
+        System.out.println("¿Es residente?: " + esResidente);
+    }
+}
